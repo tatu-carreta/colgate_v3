@@ -1,0 +1,83 @@
+/* Circular Content Carousel Style */
+.ca-container{ position:relative; margin:25px auto 5em auto; width:660px; height:300px;}
+.ca-wrapper{ width:100%; height:100%; position:relative; background: #fff;}
+
+.ca-item{position:relative; float:left; width:220px; height:100%; text-align:center;}
+
+.ca-more{width: 42px; height: 29px; position: absolute; bottom: -7px; right:-6px; background: url(../images/masInfo.png) no-repeat;}
+.ca-close{ position:absolute; bottom:0; right:0; background:#fff url(../images/cerrar.png) no-repeat; width:31px; height:29px;}
+.ca-close:hover{opacity:1.0;}
+.ca-more span, .ca-close span {display: none;}
+
+.ca-item-main{position:absolute;top:1px;left:5px;right: 5px; bottom:1px;background:#fff;overflow:hidden;border-left: 2px solid #e2002c; border-bottom: 2px solid #e2002c;}
+.ca-item-main img {width: 100%; height: auto}
+
+
+.ca-item-1 .ca-content-wrapper {background: url(../images/productos/01-infinit-desplegado.jpg) no-repeat; background-size: auto 100%;}
+.ca-item-2 .ca-content-wrapper {background: url(../images/productos/02-2e-1verde-desplegado.jpg) no-repeat; background-size: auto 100%;}
+.ca-item-3 .ca-content-wrapper {background: url(../images/productos/03-2en1azul-desplegado.jpg) no-repeat; background-size: auto 100%;}
+.ca-item-4 .ca-content-wrapper {background: url(../images/productos/04-herbal-desplegado.jpg) no-repeat; background-size: auto 100%;}
+.ca-item-5 .ca-content-wrapper {background: url(../images/productos/05-soft-mint-desplegado.jpg) no-repeat; background-size: auto 100%;}
+.ca-item-6 .ca-content-wrapper {background: url(../images/productos/06-classic-desplegado.jpg) no-repeat; background-size: auto 100%;}
+.ca-item-7 .ca-content-wrapper {background: url(../images/productos/07-menta-desplegado.jpg) no-repeat; background-size: auto 100%;}
+.ca-item-8 .ca-content-wrapper {background: url(../images/productos/08-cc-desplegado.jpg) no-repeat; background-size: auto 100%;}
+.ca-item-9 .ca-content-wrapper {background: url(../images/productos/09-sensitive-desplegado.jpg) no-repeat; background-size: auto 100%;}
+.ca-item-10 .ca-content-wrapper {background: url(../images/productos/10-whitening-desplegado.jpg) no-repeat; background-size: auto 100%;}
+.ca-item-11 .ca-content-wrapper {background: url(../images/productos/11-sarro-desplegado.jpg) no-repeat; background-size: auto 100%;}
+.ca-item-12 .ca-content-wrapper {background: url(../images/productos/12-ice-desplegado.jpg) no-repeat; background-size: auto 100%;}
+.ca-item-13 .ca-content-wrapper {background: url(../images/productos/13-lw-desplegado.jpg) no-repeat; background-size: auto 100%;}
+.ca-item-14 .ca-content-wrapper {background: url(../images/productos/14-kids-desplegado.jpg) no-repeat; background-size: auto 100%;}
+.ca-item-15 .ca-content-wrapper {background: url(../images/productos/15-magic-desplegado.jpg) no-repeat; background-size: auto 100%;}
+
+.ca-item h3{font-family: 'Roboto Condensed', sans-serif; font-size:1.35em;font-weight: 600; line-height:1em;color:#e2002c; margin: 0 0 15px 15px;text-align:left;position: absolute;bottom: 7px; height: 40px;}
+.ca-item h3 span{font-weight: 400; font-size: 0.8em }
+
+.ca-content-wrapper{
+	position:absolute;
+	width:0px; /* expands to width of the wrapper minus 1 element */
+	height:290px;
+	top:5px;
+	text-align:left;
+	z-index:10000;
+	overflow:hidden;
+	border-top: 2px solid red;
+	box-sizing:border-box;
+}
+.ca-content{ width:440px; overflow:hidden;}
+.ca-content-text{padding:0 15px;width: 55%; float: right; text-align: right;font-size: 1em;}
+.ca-content-text p {margin: 0.5em 0; line-height: 1.1em; }
+.ca-content-text .observacion {position: static;}
+.ca-item-8 .ca-content-text {padding: 0 15px 0 10px !important; width: 61% !important}
+
+.ca-nav span{
+	width:30px;
+	height:30px;
+	background:transparent url(../images/arrows.png) no-repeat top left;
+	position:absolute;
+	top:50%;
+	margin-top:-19px;
+	left:-40px;
+	text-indent:-9000px;
+	opacity:0.7;
+	cursor:pointer;
+	z-index:100;
+}
+.ca-nav span.ca-nav-next{
+	background-position:top right;
+	left:auto;
+	right:-30px;
+}
+.ca-nav span:hover{
+	opacity:1.0;
+}
+
+/* Estilos Responsive */
+
+.productosResponsive {display: none; max-width: 600px; margin: 0 auto 3em;}
+.item {text-align: left; font-size: 16px; padding: 15px}
+.item h3 {color: #e2002c; padding-top: 10px; border-top: 2px solid #e2002c;margin-bottom: 0;}
+.item p {margin: 5px 0; line-height: 17px;}
+.item .observacion {position: static; font-style: italic;}
+.item img {width: 100%; height: auto}
+
+owl-buttons
