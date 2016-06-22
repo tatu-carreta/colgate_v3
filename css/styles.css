@@ -1,74 +1,34 @@
-/* COLORES
+/* 
+COLORES
 
-celeste: #8fc5ec
+Verde: #b5c84e;
 
 */
 
-body {font-family: 'Roboto Condensed', sans-serif; margin:0;}/*ñ*/
+body {font-family: 'Lato', sans-serif; margin: 0}
 body, html {height: 100%}
-#inicio {height: 100%; position: relative;}
-.container {max-width: 1000px; margin:0 auto; padding: 0 10px; position: relative;}
-ul, li {list-style: none; padding: 0; margin: 0px;}
+.container {max-width: 1200px; margin: 0 auto; position: relative;}
+ul, li {list-style: none; margin: 0; padding: 0}
 a {text-decoration: none;}
 button span {display: none;}
-.clear {clear: both;}
-.red {color: red}
+.clear {clear: both}
 
-/* Poste Menú Superior */
-nav { }
-nav span {display: none}
-nav.menuPc {position: fixed; z-index: 1000; top:80px; }
-nav.menuPc span {display: none}
-nav.menuPc li {display: block}
-nav.menuPc a {display: block; width: 210px; height: 70px; position: relative; left: -20px; transition: all 0s ease 0s; -webkit-transition: all 0s ease 0s; -moz-transition: all 0s ease 0s;}
-nav.menuPc a:hover {transform: scale(1.3); -webkit-transform: scale(1.3); -moz-transform: scale(1.3);}
-nav.menuPc .reg {background: url(../images/btn-registrate.png) no-repeat;}
-nav.menuPc .reg:hover {background: url(../images/btn-registrate-hover.png) no-repeat;}
-nav.menuPc .prod {background: url(../images/btn-productos.png) no-repeat;}
-nav.menuPc .prod:hover {background: url(../images/btn-productos-hover.png) no-repeat;}
-nav.menuPc .bases {background: url(../images/btn-bases.png) no-repeat;}
-nav.menuPc .bases:hover {background: url(../images/btn-bases-hover.png) no-repeat;}  
+header {border-top: 2px solid #b5c84e; margin-top: 1em}
 
-nav.menuResponsive {display: none; width: 100%; height: 70px; background:#fff; position: absolute; top:0; left:0; z-index: 999}
-nav.menuResponsive ul {position: relative;}
-nav.menuResponsive li {display: inline-block;}
-nav.menuResponsive a {display: block; width: 158px ; height: 60px; position: absolute; }
-nav.menuResponsive .reg {background: url(../images/btn-registrate-r.png) no-repeat; left:0; z-index: 30}
-nav.menuResponsive .reg:hover {background: url(../images/btn-registrate-r-hover.png) no-repeat;}
-nav.menuResponsive .prod {background: url(../images/btn-productos-r.png) no-repeat; left:130px;z-index: 20}
-nav.menuResponsive .prod:hover {background: url(../images/btn-productos-r-hover.png) no-repeat; }
-nav.menuResponsive .bases {background: url(../images/btn-bases-r.png) no-repeat; left:260px; z-index: 15} 
-nav.menuResponsive .bases:hover {background: url(../images/btn-bases-r-hover.png) no-repeat;} 
+nav {}
+nav li {display: inline-block;}
+nav a {display: block; height: 98px; position: relative;}
+nav .participa {background: url(../images/btn-participa.png) no-repeat; width:251px; left:0;}
+nav .tips {background: url(../images/btn-tips.png) no-repeat; width:179px; left: -28px;}
+nav .bases {background: url(../images/btn-bases.png) no-repeat; width:180px; left: -55px;}
+nav span, .ahorra span {display: none}
 
+.ahorra {width: 80px; height: 102px; background: url(../images/ahorra-agua.jpg);position: absolute; top: 10px; right: 0}
 
-.logoTop {position: absolute; top:0; left:40px; z-index: 1000; width: 320px}
-.logoTop img {width: 100%; height: auto}
-.slides {height: 100%}
-.flexslider {position: absolute; bottom: 0; height: 100%; overflow: hidden; width:100%; }
-.flexslider li {height: 100%; width: 100%}
-/*.flexslider img {min-height: 100%; height:auto; min-width:100%; width: auto; }*/
+h2 {font-weight: 400; color: #3d77b7}
+h2 span {display: inline-block; vertical-align: middle;}
 
-.foto1 {background-image:url(../images/home.jpg); background-position: center top; background-size:cover;}
-/*.foto2 {background-image:url(../images/slide2.jpg); background-position: center top; background-size:cover}*/
-
-.flex-control-nav, .flex-direction-nav {display: none;}
-.slideBanda {font-family: 'Roboto', sans-serif; height: 100%; text-align: right;}
-/*.slideBanda {position: absolute; bottom: 0; font-family: 'Roboto', sans-serif; max-height: 650px; text-align: right;}*/
-.txtSlide {position: absolute; top: 10%; z-index: 999; width: 100%}
-.txtSlide h2 {color: #ed1b2e; font-weight: 500; font-size: 3.4em; margin: 0; letter-spacing: -1px }
-.txtSlide .bandaCeleste {background-color: rgba(100, 206, 242, 0.8); }
-.txtSlide h3 {color: #fff; font-weight: 700;font-size: 5.6em; margin: 0; line-height: 1em}
-.banda {color: #fff; width:100%; position: absolute; bottom: 0;z-index: 999;
-	background: rgb(136, 24, 22);
-	background: -moz-linear-gradient(90deg, rgb(136, 24, 22) 10%, rgb(218, 4, 17) 60%);
-	background: -webkit-linear-gradient(90deg, rgb(136, 24, 22) 10%, rgb(218, 4, 17) 60%);
-	background: -o-linear-gradient(90deg, rgb(136, 24, 22) 10%, rgb(218, 4, 17) 60%);
-	background: -ms-linear-gradient(90deg, rgb(136, 24, 22) 10%, rgb(218, 4, 17) 60%);
-	background: linear-gradient(180deg, rgb(136, 24, 22) 10%, rgb(218, 4, 17) 60%);}
-.banda h1 {font-weight: 400; text-align: center;font-family: 'Roboto', sans-serif;}
-h1 .colgatePlaxH1 {display: inline-block; margin: 0 0.2em; vertical-align: text-top;}
-
-/*section {height: 100%;}*/
+section {height: 100%;}
 #inicio {}
 #productos {text-align: center}
 #productos .container, #registro .container {height: 100%; padding-top: 40px;} 
@@ -79,20 +39,6 @@ h1 .colgatePlaxH1 {display: inline-block; margin: 0 0.2em; vertical-align: text-
 .divDivisor {margin: 3em 0 5em}
 .divDivisor img {width: 100%; height: auto}
 
-.papelitosHome {width: 100%; position: absolute;bottom: 0; z-index: 11; text-align: center}
-.papelitosProd {max-width: 1200px; height: 458px; position: absolute; top: 70px; left: 0; z-index: -1;}
-
-.papelitosProd img, .papelitosHome img {width: 100%; height: auto}*/
-
-
-
-button:focus, input:focus {outline: 0}
-
-/* Productos */
-.imgProdFicha {position: absolute; top: 0; left: 0}
-
-.txtMin {font-size: 0.78em; margin:0 !important}
-.txtMin span {color:red}
 
 /* Formulario de Registro */
 .formRegistro {max-width: 600px; margin:0 auto 100px; background: #fff}
@@ -128,141 +74,13 @@ footer {width: 100%; height: 80px; text-align: center; font-size: 14px;}
 .btn {background: #e2002c; border: none; color: #fff; display: inline-block; padding:0 15px; border-radius: 17px; font-weight: 600; font-size: 20px; height: 35px; line-height: 35px; cursor: pointer;}
 
 
-input[type="text"], input[type="email"] {border:2px solid #e2002c; display: inline-block; padding:0 15px; border-radius: 17px; text- font-weight: 600; font-size: 20px; height: 32px; line-height: 32px; width: 100%; box-sizing:border-box; vertical-align: middle;}
-input[type="submit"] {font-family: 'Roboto Condensed', sans-serif;}
+input[type="text"], input[type="email"] {border:2px solid #b5c84e; display: inline-block; padding:0 15px; font-weight: 600; font-size: 20px; height: 32px; line-height: 32px; width: 100%; box-sizing:border-box; vertical-align: middle;}
+input[type="submit"] {font-family: 'Lato', sans-serif;}
 
 .contentUp {width: 100%; position: fixed; bottom: 0; left:0; z-index: 999}
 .scrollUp{ width:60px; height:60px; opacity:0.9; position:fixed; z-index: 999; bottom:20px; right:25px; display:none; background: url(../images/up.png) no-repeat; border-radius: 50%; -webkit-border-radius: 50%; -moz-border-radius: 50%; -o-border-radius: 50%;}
 
-/*
-    DIV LOADING
-*/
+/* D I V  L O A D I N G */
 #divLoading {display: none; position: fixed; top: 0; left: 0; z-index: 5000; width: 100%; height: 100%; text-align: center; background: rgba(255,255,255,0.7);}
 #divLoading img {position: absolute; top: 50%; left:50%; margin-top: -24px; margin-left: -24px}
 #divLoading p {position: absolute; top:40%; width: 100%; font-size: 1.6em;}
-
-
-/* M E D I A  Q U E R Y */
-
-@media screen and (max-width: 1024px){
-	.txtSlide h3 {font-size: 4.8em;}
-	.txtSlide h2 {font-size: 3em; }
-	nav.menuPc {top:70px;}
-}
-
-@media screen and (max-width: 1024px) and (orientation: landscape){
-	.txtSlide {top: 5%;}
-	nav.menuPc {top:60px;}
-}
-
-@media screen and (max-width: 1024px) and (orientation: portrait){
-	.txtSlide {top: 10%;}
-	.txtSlide h3 {font-size: 4.8em;}
-	.txtSlide h2 {font-size: 3em; }
-	.papelitosHome {top:0 !important; width: 120%; left:-10%;}
-	.foto1 {background-image:url(../images/home768.jpg); background-repeat: no-repeat; background-position: center bottom; background-size: 100%;}
-	/*.foto2 {background-image:url(../images/slide2-800-v.jpg); background-position: center top; background-size:cover}*/
-	.banda h1 {font-size: 1.8em; width: 90%; margin: 0.5em auto;}
-}
-
-@media screen and (max-width: 768px){
-	.papelitosProd {width: 100%; top: 50px}
-    .productosResponsive{display: block}
-    .productosPC {display: none}
-}
-@media screen and (max-width: 768px) and (orientation: landscape){
-	nav.menuPc {top:12%;}
-	.txtSlide {top: 10%;}
-	.txtSlide h2 {font-size: 2em; }
-	.txtSlide h3 {font-size: 3.2em; line-height: 1.1em}
-	.banda h1 {font-size: 1.2em; margin: 10px;}
-	h1 .colgatePlaxH1 {width: 25%}
-}
-@media screen and (max-width: 768px) and (orientation: portrait){
-	.txtSlide {top: 12%;}
-}
-
-@media screen and (max-width: 667px) and (orientation: landscape){
-	.logoTop {position: static; width: 30%; margin-left: 5% } 
-	.menuPc {transform:scale(0.65); -webkit-transform:scale(0.65); -moz-transform:scale(0.65); -o-transform:scale(0.65); top:0 !important; left:-30px;}
-	.menuPc ul {left: 0}
-	.txtSlide {top:0; }
-	.txtSlide h2, .txtSlide h3 {transform:scale(0.7); -webkit-transform:scale(0.7); -moz-transform:scale(0.7); -o-transform:scale(0.7);}
-	.txtSlide h3 {line-height: 0.8em;}
-}
-
-@media screen and (max-width: 667px) and (orientation: portrait){
-	nav.menuPc {display: none;}
-	nav.menuResponsive {display: block; top:35px; background: transparent;}
-	.txtSlide {top:10%; text-align: center}
-
-	.logoTop {position: static; width: 80%; margin: 0 auto;} 
-}
-
-@media screen and (max-width: 570px) and (orientation: landscape){
-	.txtSlide {top:10%; }
-}
-
-@media screen and (max-width: 480px) and (orientation: landscape){
-	nav.menuPc {display: none;}
-	nav.menuResponsive {display: block;}
-	.txtSlide {top:top:10%; text-align: center}
-}
-
-@media screen and (max-width: 480px){
-	.formRegistro label {font-size: 1.1em; line-height: 1.6em; padding-left: 12px;}
-	.combo {margin-bottom: 15px;}
-	.comboDni {width: 100% !important}
-	.observacion {display: block;}
-	.observacion2 {font-size: 1em !important; line-height: 1.2em !important; padding-left: 30px !important;}   
-	.codigo {width: 33%; margin-bottom: 15px;}
-	.ciudad {width: 65%; margin-bottom: 15px;}
-	.prov {width: 100%}
-	.cArea {width: 33%}
-	.telContacto {width: 65%}
-	input[type="text"], input[type="email"] {height: 35px}
-	.comboEan {display: table; margin-bottom: 40px;}
-	#ean {display: table-cell; width: 85% !important}
-	.masEan{display: table-cell;}
-
-	.prodImg img {width: 100%; height: auto}
-	.btn.linkColgate {margin: 0 !important; text-align: center; background: transparent; color: red}
-
-	.contentUp {width: 100%; position: fixed; bottom: 0; left:0; z-index: 999}
-	.scrollUp {background-position:center; position:absolute; bottom:10px; left:50%; margin-left: -25px; display:none;  width: 50px; height: 50px}
-	footer {margin-bottom: 100px;}
-	.txtSlide h2 {font-size: 2.3em; }
-	.txtSlide h3 {font-size: 3.6em; line-height: 1.2em}
-	.banda h1 {font-size: 1.3em;}
-	h1 .colgatePlaxH1 {margin: 0 0.1em; width: 45%;}
-}
-
-@media screen and (max-width: 440px){
-		nav.menuResponsive {transform:scale(0.85); -webkit-transform:scale(0.85); -moz-transform:scale(0.85); -o-transform:scale(0.85); left: -40px}
-		.txtSlide h2, .txtSlide h3 {transform:scale(0.9); -webkit-transform:scale(0.9); -moz-transform:scale(0.9); -o-transform:scale(0.9);}
-}
-
-@media screen and (max-width: 395px){
-	.labelEan span {display: inline-block;}
-	#ean {display: table-cell; width: 100% !important}
-	.masEan{display: inline-block;}
-	.observacion {display: inline-block;}
-	.txtSlide h3 {font-size: 3em; line-height: 1em}
-	.txtSlide h2 {font-size: 2em; }
-}
-
-@media screen and (max-width: 375px) and (orientation: portrait){
-	.foto1 {background-image:url(../images/home375-v.jpg); background-repeat: no-repeat; background-position: center bottom; }
-	.logoTop {width: 60%}
-	nav.menuResponsive {top:25px;}
-	.banda {height: 40px; bottom: 40px}
-}
-
-@media screen and (max-width: 355px){
-	nav.menuResponsive {transform:scale(0.75); -webkit-transform:scale(0.75); -moz-transform:scale(0.75); -o-transform:scale(0.75); left: -50px}
-}
-@media screen and (max-width: 320px){
-	.txtSlide h3 {font-size: 2em; line-height: 1em}
-	.banda h1 {font-size: 1em;}
-	h1 .colgatePlaxH1 {margin: 0 0.1em; width: 45%;}
-}

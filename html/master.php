@@ -4,7 +4,7 @@ require_once (__DIR__) . '/../php/config.php';
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <title></title>
+        <title>Cuidemos el agua con Colgate</title>
 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,32 +12,14 @@ require_once (__DIR__) . '/../php/config.php';
 
         <link rel="shortcut icon" href="favicon.ico">
         <!-- CSS -->
-        <link href="<?php echo PATH_CSS; ?>styleProductos.css" rel="stylesheet" media="screen">
         <link href="<?php echo PATH_CSS; ?>styles.css" rel="stylesheet" media="screen">
-        <link href="<?php echo PATH_CSS; ?>jquery.jscrollpane.css" rel="stylesheet" media="all" />
-        <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300,300italic,500italic,700,700italic,900' rel='stylesheet' type='text/css'>
-
-        <!-- owl carousel para responsive -->
-        <link rel="stylesheet" href="<?php echo PATH_CSS; ?>owl.carousel.css">
-        <link rel="stylesheet" href="<?php echo PATH_CSS; ?>owl.theme.css">
-        <link rel="stylesheet" href="<?php echo PATH_CSS; ?>owl.transitions.css">
+        <link href='https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic,900' rel='stylesheet' type='text/css'>
 
         <script src="<?php echo PATH_JS ?>jquery-1.8.0.min.js"></script>
         <script type="text/javascript">
             var PATH_CONTROLLER = '<?php echo PATH_CONTROLLER ?>';
             var PATH_HOME = '<?php echo PATH_HOME ?>';
         </script> 
-        <script src="<?php echo PATH_JS ?>jquery.flexslider.js"></script>
-        <script>
-            $(window).load(function () {
-                $('.flexslider').flexslider({
-                    animation: "fade",
-                    slideshowSpeed: 3000,
-                    animationDuration: 500,
-                });
-            });
-        </script>
 
         <!-- anclas -->
         <script type="text/javascript">
@@ -72,47 +54,34 @@ require_once (__DIR__) . '/../php/config.php';
                     return false;
                 });
             })
-        </script>
-
-        <!-- Include Owl Carousel -->
-        <script src="<?php echo PATH_JS ?>owl.carousel.min.js"></script>
-        <script>
-            $(document).ready(function () {
-                $("#owl-demo").owlCarousel({
-                    autoPlay: false, //Set AutoPlay to 3 seconds
-                    nav:true,
-                    items: 3,
-                    itemsDesktopSmall: [979, 3],
-                    itemsTablet: [768, 2],
-                    itemsMobile: [479, 1]
-                });
-            });
-        </script>
-        
+        </script>    
     </head>
     <body>
         <header>
-            <div class="logoTop"><img src="<?php echo PATH_IMAGES; ?>logo-colgate-plax2.png" alt="Colgate Plax"></div>
-            <nav class="menuPc">
-                <ul>
-                    <li><a href="#registro" class="reg"><span>¡Registrate!</span></a></li>
-                    <li><a href="#productos" class="prod"><span>Productos</span></a></li>
-                    <li><a href="#bases" class="bases"><span>Bases y condiciones</span></a></li>
-                </ul>
-            </nav>
-            <nav class="menuResponsive">
-                <ul>
-                    <li><a href="#registro" class="reg"><span>¡Registrate!</span></a></li>
-                    <li><a href="#productos" class="prod"><span>Productos</span></a></li>
-                    <li><a href="#bases" class="bases"><span>Bases y condiciones</span></a></li>
-                </ul>
-            </nav>
+            <div class="container">
+                <nav>
+                    <ul>
+                        <li><a href="#participa" class="participa"><span>Participá y contanos cómo cuidás el agua</span></a></li>
+                        <li><a href="#tips" class="tips"><span>Eco Tips</span></a></li>
+                        <li><a href="#bases" class="bases"><span>Bases y condiciones</span></a></li>
+                    </ul>
+                </nav>
+                <div class="ahorra"><span>Ahorrá agua</span></div>
+            
+                <!-- <nav class="menuResponsive">
+                    <ul>
+                        <li><a href="#registro" class="reg"><span>¡Registrate!</span></a></li>
+                        <li><a href="#productos" class="prod"><span>Productos</span></a></li>
+                        <li><a href="#bases" class="bases"><span>Bases y condiciones</span></a></li>
+                    </ul>
+                </nav> -->
+            </div>
         </header>
 
 <?php
 require_once (__DIR__) . '/home.php';
-require_once (__DIR__) . '/registro.php';
-require_once (__DIR__) . '/productos.php';
+require_once (__DIR__) . '/participa.php';
+require_once (__DIR__) . '/consejos.php';
 require_once (__DIR__) . '/bases.php';
 ?>
 
@@ -138,12 +107,5 @@ require_once (__DIR__) . '/bases.php';
 
         <script src="<?php echo PATH_JS ?>jqFuncs.js"></script>
         <script src="<?php echo PATH_JS ?>jquery.easing.1.3.js"></script>
-        <!-- the jScrollPane script -->
-        <script src="<?php echo PATH_JS ?>jquery.mousewheel.js"></script>
-        <script src="<?php echo PATH_JS ?>jquery.contentcarousel.js"></script>
-        <script type="text/javascript">
-            $('#ca-container').contentcarousel();
-        </script>
-        
     </body>
 </html>

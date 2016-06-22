@@ -1,7 +1,6 @@
 <!-- Section REGISTRO -->
-<section id="registro">
+<section id="participa">
     <div class="container">
-        <div class="papelitosProd"><img src="<?php echo PATH_IMAGES; ?>papelitos2.gif" alt="Colgate Plax"></div>
         <form id="registroForm" action="<?php echo PATH_CONTROLLER; ?>controladorAdminModel.php" method="post" class="formRegistro" >
             <div class="combo">
                 <label for="nomyape">Nombre y Apellido</label><br>
