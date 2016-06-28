@@ -12,6 +12,7 @@ require_once (__DIR__) . '/../php/config.php';
 
         <link rel="shortcut icon" href="favicon.ico">
         <!-- CSS -->
+        <link href="<?php echo PATH_CSS; ?>font-awesome.min.css" rel="stylesheet" media="screen">
         <link href="<?php echo PATH_CSS; ?>styles.css" rel="stylesheet" media="screen">
         <link href='https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic,900' rel='stylesheet' type='text/css'>
 
@@ -57,26 +58,7 @@ require_once (__DIR__) . '/../php/config.php';
         </script>    
     </head>
     <body>
-        <header>
-            <div class="container">
-                <nav>
-                    <ul>
-                        <li><a href="#participa" class="participa"><span>Participá y contanos cómo cuidás el agua</span></a></li>
-                        <li><a href="#tips" class="tips"><span>Eco Tips</span></a></li>
-                        <li><a href="#bases" class="bases"><span>Bases y condiciones</span></a></li>
-                    </ul>
-                </nav>
-                <div class="ahorra"><span>Ahorrá agua</span></div>
-            
-                <!-- <nav class="menuResponsive">
-                    <ul>
-                        <li><a href="#registro" class="reg"><span>¡Registrate!</span></a></li>
-                        <li><a href="#productos" class="prod"><span>Productos</span></a></li>
-                        <li><a href="#bases" class="bases"><span>Bases y condiciones</span></a></li>
-                    </ul>
-                </nav> -->
-            </div>
-        </header>
+        
 
 <?php
 require_once (__DIR__) . '/home.php';

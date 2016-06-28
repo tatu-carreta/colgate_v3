@@ -13,7 +13,7 @@ a {text-decoration: none;}
 button span {display: none;}
 .clear {clear: both}
 
-header {border-top: 2px solid #b5c84e; margin-top: 1em}
+header {border-top: 2px solid #b5c84e; margin-top: 1em; position: absolute; top: 0; width: 100%}
 
 nav {}
 nav li {display: inline-block;}
@@ -28,8 +28,16 @@ nav span, .ahorra span {display: none}
 h2 {font-weight: 400; color: #3d77b7}
 h2 span {display: inline-block; vertical-align: middle;}
 
-section {height: 100%;}
-#inicio {}
+/* HOME */
+#inicio {background: url(../images/manos.jpg) no-repeat right top; background-size: auto 80%; display: table; width: 100%}
+#inicio .container {height: 100%; display: table-cell; vertical-align: middle;}
+.mainTxt {width: 50%; float: left}
+.mainImg {width: 50%; float: right; text-align: right;}
+.mainImg img {width: auto; height: 100%}
+.consigna {border-top: 2px solid #b5c84e; position: absolute; bottom: 0}
+
+section {height: 100%; position: relative;}
+
 #productos {text-align: center}
 #productos .container, #registro .container {height: 100%; padding-top: 40px;} 
 #bases {min-height: 700px}
@@ -78,7 +86,8 @@ input[type="text"], input[type="email"] {border:2px solid #b5c84e; display: inli
 input[type="submit"] {font-family: 'Lato', sans-serif;}
 
 .contentUp {width: 100%; position: fixed; bottom: 0; left:0; z-index: 999}
-.scrollUp{ width:60px; height:60px; opacity:0.9; position:fixed; z-index: 999; bottom:20px; right:25px; display:none; background: url(../images/up.png) no-repeat; border-radius: 50%; -webkit-border-radius: 50%; -moz-border-radius: 50%; -o-border-radius: 50%;}
+.scrollUp{ width:101px; height:57px; position:fixed; z-index: 999; bottom:20px; right:25px; display:none; background: url(../images/up.svg); }
+
 
 /* D I V  L O A D I N G */
 #divLoading {display: none; position: fixed; top: 0; left: 0; z-index: 5000; width: 100%; height: 100%; text-align: center; background: rgba(255,255,255,0.7);}
