@@ -29,12 +29,13 @@ h2 {font-weight: 400; color: #3d77b7}
 h2 span {display: inline-block; vertical-align: middle;}
 
 /* HOME */
-#inicio {background: url(../images/manos.jpg) no-repeat right top; background-size: auto 80%; display: table; width: 100%}
-#inicio .container {height: 100%; display: table-cell; vertical-align: middle;}
-.mainTxt {width: 50%; float: left}
+#inicio {background: url(../images/manos.jpg) no-repeat right top; background-size: auto 80%; display: table; width: 100%;}
+.mainTxt {width: 100%; height: 100%; display: table-cell; vertical-align: middle;t}
 .mainImg {width: 50%; float: right; text-align: right;}
 .mainImg img {width: auto; height: 100%}
-.consigna {border-top: 2px solid #b5c84e; position: absolute; bottom: 0}
+.consigna {border-top: 2px solid #b5c84e; position: absolute; left: 0; bottom: 0; width: 100%;}
+.consigna h2 {float: left; width: 60%; line-height: 0.8em;}
+.calafate {float: left; width: 20%}
 
 section {height: 100%; position: relative;}
 
