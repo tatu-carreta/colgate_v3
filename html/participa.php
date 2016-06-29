@@ -1,6 +1,18 @@
 <!-- Section REGISTRO -->
 <section id="participa">
-    <div class="container">
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#participa" class="participa"><span>Participá y contanos cómo cuidás el agua</span></a></li>
+                    <li><a href="#tips" class="tips"><span>Eco Tips</span></a></li>
+                    <li><a href="#bases" class="bases"><span>Bases y condiciones</span></a></li>
+                </ul>
+            </nav>
+            <div class="ahorra"><span>Ahorrá agua</span></div>
+        </div>
+    </header>
+    <div class="containerSmall">
         <!-- Form -->
         <form id="registroForm" action="<?php echo PATH_CONTROLLER; ?>controladorAdminModel.php" method="post" class="formRegistro" >
             <div class="camposRegistro">
@@ -51,10 +63,6 @@
                     <button type="button" class="masEan"><span>Agregar más códigos</span></button>
                     <span class="observacion">Podés cargar hasta 10 productos</span>
                 </div>
-                <div class="combo envio">
-                    <input type="hidden" name="section" value="registro">
-                    <input class="btn" type="submit" value="ENVIAR">
-                </div>
                 <div class="combo check">
                     <input id="nov" type="checkbox" name="novedades" value="T" checked=""><label class="observacion2" for="nov">Deseo recibir información sobre promociones especiales, nuevos productos y otras comunicaciones de Colgate.</label>
                     <div class="clear"></div>
@@ -62,7 +70,12 @@
             </div><!-- Cierra campos registros -->
         
             <div class="campoComentarios">
-
+                <h2>Mi compromiso <br>con el cuidado del agua es...</h2>
+                <textarea name="" class="textAComentario"></textarea>
+                <div class="combo envio">
+                    <input type="hidden" name="section" value="registro">
+                    <input class="btn" type="submit" value="ENVIAR">
+                </div>
             </div>
             <div class="clear"></div>
         </form>
