@@ -19,10 +19,10 @@ if (!$localhost) {
 
     switch ($_SERVER['HTTP_HOST']) {
         case "cuidemoselagua.com.ar":
-            define("URL_TOTAL", "http://cuidemoselagua.com.ar/nuevo");
+            define("URL_TOTAL", "http://cuidemoselagua.com.ar/nuevo/");
             break;
         case "www.cuidemoselagua.com.ar":
-            define("URL_TOTAL", "http://www.cuidemoselagua.com.ar/nuevo");
+            define("URL_TOTAL", "http://www.cuidemoselagua.com.ar/nuevo/");
             break;
     }
 

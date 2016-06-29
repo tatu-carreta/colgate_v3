@@ -38,7 +38,7 @@ h2 span {display: inline-block; vertical-align: middle;}
 .consigna h2 {float: left; width: 60%; line-height: 0.8em;}
 .calafate {float: left; width: 20%}
 
-section {height: 100%; position: relative;}
+section {height: 100%; position: relative; box-sizing:border-box;}
 
 /* Registro y poné tu comentario*/
 #participa {background: url(../images/agua.jpg) no-repeat bottom; background-size: 100%; padding-top: 160px;} 
@@ -63,15 +63,32 @@ section {height: 100%; position: relative;}
 .btnMira {background: url(../images/btn-mira.svg) no-repeat; display: inline-block; width:208px; height: 78px; position: absolute; top:150px; left: 270px}
 .btnMira span {display: none;}
 .btnEnviar {display: inline-block; width: 110px; height: 34px; background: url(../images/bg-btn-enviar.svg) no-repeat; color:#dce4a8; font-size: 17px; border: 0; font-weight: 600; position: relative; top: -12px; left: 60px}
+.btnLeerMas {display: inline-block; width: 141px; height: 34px; background: url(../images/bg-btn-mas.svg) no-repeat; font-size: 17px; border: 0; font-weight: 600; padding: 6px 10px; color: #4e7bb9; cursor: pointer}
 
 .check {}
 .check input[type="checkbox"] {float: left; margin-bottom: 1em; margin-right: 0.5em; position: relative; top: 0px}
 .check label {display: block}
 
+/* Comentarios */ 
+#comentarios {padding-top: 160px;}
+#comentarios h2 {font-weight: 700}
+.opiniones {}
+.opiniones li {background: url(../images/hombrecito.gif) no-repeat left; padding-left:50px; padding-top: 5px; color: #3d77b7; font-size: 20px; margin-bottom: 20px }
+.opiniones p {margin: 0}
+.opiniones p.participante {color: #b5c84e; font-size: 14px; margin-top: 5px}
+
+/* Consejos */
+#consejos {padding-top: 160px;}
+#consejos h2 {font-weight: 700; text-align: center}
+
+.tips {margin: 0 -1%; color: #8ec3e6}
+.tips li {float: left; width: 18%; margin: 0 1%; text-align: center}
+.tips h3 {color: #3d77b7}
+.tips .litros {}
 
 /* Bases y condiciones */
 /*#masBases {display: none}*/
-#bases {min-height: 700px}
+#bases {min-height: 700px; padding-top: 160px; }
 #bases .colContent {padding-top: 0.1em;}
 .colMenu {width: 327px; float: left; position: relative; z-index: 100}
 .colContent {margin: 0 auto; max-width: 600px; position: relative; z-index: 100; background: white}

@@ -68,11 +68,11 @@ require_once (__DIR__) . '/consejos.php';
 require_once (__DIR__) . '/bases.php';
 ?>
 
-        <!-- FOOTER -->
+        <!-- FOOTER 
         <footer>
             <p class="copyright"> © 2016 <a href="http://www.colgatepalmolive.com.ar" target="_blank">Colgate-Palmolive Company</a>. Todos los derechos reservados. Usted está viendo la página de Argentina. <br>Vea nuestras <a href="http://www.colgate.com.ar/app/Colgate/AR/Corp/LegalPrivacy.cvsp" target="_blank">Políticas de Privacidad</a>. </p> 
             <p class="brand"> <a href="http://www.colgatepalmolive.com.ar" target="_blank"></a> </p>
-        </footer>
+        </footer>-->
 
         <div class="contentUp"><a href="#" class="scrollUp"></a></div>
 
