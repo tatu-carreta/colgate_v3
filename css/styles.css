@@ -39,18 +39,14 @@ h2 span {display: inline-block; vertical-align: middle;}
 
 section {height: 100%; position: relative;}
 
-#productos {text-align: center}
-#productos .container, #registro .container {height: 100%; padding-top: 40px;} 
-#bases {min-height: 700px}
-#bases .colContent {padding-top: 0.1em;}
-.colMenu {width: 327px; float: left; position: relative; z-index: 100}
-.colContent {margin: 0 auto; max-width: 600px; position: relative; z-index: 100; background: white}
-.divDivisor {margin: 3em 0 5em}
-.divDivisor img {width: 100%; height: auto}
-
+/* Registro y poné tu comentario*/
+#participa {background: url(../images/agua.jpg) no-repeat bottom; background-size: 100%;}
+#participa .container {height: 100%; padding-top: 40px;} 
+#participa .camposRegistro {width: 50%; float: left}
+#participa .campoComentarios {width: 50%; float: right;}
 
 /* Formulario de Registro */
-.formRegistro {max-width: 600px; margin:0 auto 100px; background: #fff}
+.formRegistro {}
 .formRegistro label {padding-left: 20px;}
 .ancho100 {width: 100%; display: inline-block;}
 .ancho60 {width: 60% !important; display: inline-block }
@@ -66,8 +62,16 @@ section {height: 100%; position: relative;}
 .check input[type="checkbox"] {float: left; margin-bottom: 1em; margin-right: 0.5em; position: relative; top: 0px}
 .check label {display: block}
 
+
 /* Bases y condiciones */
 /*#masBases {display: none}*/
+#bases {min-height: 700px}
+#bases .colContent {padding-top: 0.1em;}
+.colMenu {width: 327px; float: left; position: relative; z-index: 100}
+.colContent {margin: 0 auto; max-width: 600px; position: relative; z-index: 100; background: white}
+.divDivisor {margin: 3em 0 5em}
+.divDivisor img {width: 100%; height: auto}
+
 .btnProd {border: 2px solid #e2002c; color: #e2002c; display: inline-block; padding:0 70px 0 15px; border-radius: 20px; font-weight: 400; font-size: 25px; height: 40px; line-height: 40px; cursor: pointer; margin-bottom: 2em;}
 .logoColgate {position: relative; top:17px; left: -70px; height: 35px; border: 4px solid white; display: inline-block;}
 
