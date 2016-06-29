@@ -13,23 +13,23 @@ date_default_timezone_set("America/Argentina/Buenos_Aires");
 
 $localhost = true; //define si se esta trabajando a modo local o no
 
-$proyecto = "";
+$proyecto = "CUIDEMOS EL AGUA";
 
 if (!$localhost) {
 
     switch ($_SERVER['HTTP_HOST']) {
-        case "promoplax.com.ar":
-            define("URL_TOTAL", "http://promoplax.com.ar/promo/");
+        case "cuidemoselagua.com.ar":
+            define("URL_TOTAL", "http://cuidemoselagua.com.ar/nuevo");
             break;
-        case "www.promoplax.com.ar":
-            define("URL_TOTAL", "http://www.promoplax.com.ar/promo/");
+        case "www.cuidemoselagua.com.ar":
+            define("URL_TOTAL", "http://www.cuidemoselagua.com.ar/nuevo");
             break;
     }
 
-    define("DB_USER", "promopla_PROUser");
-    define("DB_PASS", "Promo_Pass_16");
+    define("DB_USER", "");
+    define("DB_PASS", "");
     define("DB_HOST", "localhost");
-    define("DB_SELECTED", "promopla_Promo16");
+    define("DB_SELECTED", "");
 
 
 } else {
