@@ -4,7 +4,7 @@
             <nav>
                 <ul>
                     <li><a href="#participa" class="participa"><span>Participá y contanos cómo cuidás el agua</span></a></li>
-                    <li><a href="#tips" class="tips"><span>Eco Tips</span></a></li>
+                    <li><a href="#consejos" class="tips"><span>Consejos</span></a></li>
                     <li><a href="#bases" class="bases"><span>Bases y condiciones</span></a></li>
                 </ul>
             </nav>

@@ -43,9 +43,8 @@ section {height: 100%; position: relative;}
 /* Registro y poné tu comentario*/
 #participa {background: url(../images/agua.jpg) no-repeat bottom; background-size: 100%; padding-top: 160px;} 
 #participa .camposRegistro {width: 48%; float: left}
-#participa .campoComentarios {width: 48%; float: right;background: url(../images/bg-comentarios.svg) no-repeat top left; min-height: 350px; box-sizing:border-box; padding: 15px}
+#participa .campoComentarios {width: 48%; float: right;background: url(../images/bg-comentarios.svg) no-repeat top left; min-height: 350px; box-sizing:border-box; padding: 15px; position: relative;}
 #participa .campoComentarios h2 {color: #fff; margin-top: 0}
-.textAComentario {}
 
 /* Formulario de Registro */
 .formRegistro {}
@@ -60,7 +59,10 @@ section {height: 100%; position: relative;}
 .observacion {font-size: 0.8em;position: relative; top: -12px; left: 5px;}
 .observacion2 {font-size: 0.9em;}
 
-.textAComentario {border:2px solid #b5c84e; }
+.textAComentario {border:2px solid #b5c84e; width: 230px; height: 220px; color: #3d77b7;font-family: 'Lato', sans-serif; padding: 5px; font-size: 13px }
+.btnMira {background: url(../images/btn-mira.svg) no-repeat; display: inline-block; width:208px; height: 78px; position: absolute; top:150px; left: 270px}
+.btnMira span {display: none;}
+.btnEnviar {display: inline-block; width: 110px; height: 34px; background: url(../images/bg-btn-enviar.svg) no-repeat; color:#dce4a8; font-size: 17px; border: 0; font-weight: 600; position: relative; top: -12px; left: 60px}
 
 .check {}
 .check input[type="checkbox"] {float: left; margin-bottom: 1em; margin-right: 0.5em; position: relative; top: 0px}
@@ -95,7 +97,7 @@ input[type="text"], input[type="email"] {border:2px solid #b5c84e; display: inli
 input[type="submit"] {font-family: 'Lato', sans-serif;}
 
 .contentUp {width: 100%; position: fixed; bottom: 0; left:0; z-index: 999}
-.scrollUp{ width:101px; height:57px; position:fixed; z-index: 999; bottom:20px; right:25px; display:none; background: url(../images/up.svg); }
+.scrollUp{ width:101px; height:57px; position:fixed; z-index: 999; bottom:0; right:25px; display:none; background: url(../images/up.svg); }
 
 
 /* D I V  L O A D I N G */

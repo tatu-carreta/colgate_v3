@@ -63,6 +63,7 @@ require_once (__DIR__) . '/../php/config.php';
 <?php
 require_once (__DIR__) . '/home.php';
 require_once (__DIR__) . '/participa.php';
+require_once (__DIR__) . '/comentarios.php';
 require_once (__DIR__) . '/consejos.php';
 require_once (__DIR__) . '/bases.php';
 ?>

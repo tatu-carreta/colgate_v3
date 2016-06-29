@@ -5,7 +5,7 @@
             <nav>
                 <ul>
                     <li><a href="#participa" class="participa"><span>Participá y contanos cómo cuidás el agua</span></a></li>
-                    <li><a href="#tips" class="tips"><span>Eco Tips</span></a></li>
+                    <li><a href="#consejos" class="tips"><span>Consejos</span></a></li>
                     <li><a href="#bases" class="bases"><span>Bases y condiciones</span></a></li>
                 </ul>
             </nav>
@@ -71,11 +71,12 @@
         
             <div class="campoComentarios">
                 <h2>Mi compromiso <br>con el cuidado del agua es...</h2>
-                <textarea name="" class="textAComentario"></textarea>
+                <textarea name="" class="textAComentario" placeholder="Escribí tu comentario:"></textarea>
                 <div class="combo envio">
                     <input type="hidden" name="section" value="registro">
-                    <input class="btn" type="submit" value="ENVIAR">
+                    <input class="btnEnviar" type="submit" value="ENVIAR">
                 </div>
+                <a href="#comentarios" class="btnMira"><span>Mirá cómo otros ya se han comprometido</span></a>
             </div>
             <div class="clear"></div>
         </form>

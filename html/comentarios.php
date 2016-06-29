@@ -1,5 +1,5 @@
-<!-- Section Consejos -->
-<section id="consejos">
+<!-- Section Comentarios -->
+<section id="comentarios">
     <header>
         <div class="container">
             <nav>
