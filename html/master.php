@@ -56,9 +56,31 @@ require_once (__DIR__) . '/../php/config.php';
                 });
             })
         </script>    
+        <!-- Add fancyBox -->
+        <link rel="stylesheet" href="<?php echo PATH_CSS ?>jquery.fancybox.css" type="text/css" media="screen" />
+        <script type="text/javascript" src="<?php echo PATH_JS ?>jquery.fancybox.pack.js"></script>
     </head>
     <body>
+        <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#participa" class="participa"><span>Participá y contanos cómo cuidás el agua</span></a></li>
+                    <li><a href="#consejos" class="consejos"><span>Consejos</span></a></li>
+                    <li><a href="#bases" class="bases"><span>Bases y condiciones</span></a></li>
+                </ul>
+            </nav>
+            <div class="ahorra"><span>Ahorrá agua</span></div>
         
+            <!-- <nav class="menuResponsive">
+                <ul>
+                    <li><a href="#registro" class="reg"><span>¡Registrate!</span></a></li>
+                    <li><a href="#productos" class="prod"><span>Productos</span></a></li>
+                    <li><a href="#bases" class="bases"><span>Bases y condiciones</span></a></li>
+                </ul>
+            </nav> -->
+        </div>
+    </header>    
 
 <?php
 require_once (__DIR__) . '/home.php';
@@ -68,11 +90,11 @@ require_once (__DIR__) . '/consejos.php';
 require_once (__DIR__) . '/bases.php';
 ?>
 
-        <!-- FOOTER 
+        <!-- FOOTER -->
         <footer>
             <p class="copyright"> © 2016 <a href="http://www.colgatepalmolive.com.ar" target="_blank">Colgate-Palmolive Company</a>. Todos los derechos reservados. Usted está viendo la página de Argentina. <br>Vea nuestras <a href="http://www.colgate.com.ar/app/Colgate/AR/Corp/LegalPrivacy.cvsp" target="_blank">Políticas de Privacidad</a>. </p> 
             <p class="brand"> <a href="http://www.colgatepalmolive.com.ar" target="_blank"></a> </p>
-        </footer>-->
+        </footer>
 
         <div class="contentUp"><a href="#" class="scrollUp"></a></div>
 

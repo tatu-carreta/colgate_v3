@@ -1,17 +1,5 @@
 <!-- Section REGISTRO -->
 <section id="participa">
-    <header>
-        <div class="container">
-            <nav>
-                <ul>
-                    <li><a href="#participa" class="participa"><span>Participá y contanos cómo cuidás el agua</span></a></li>
-                    <li><a href="#consejos" class="tips"><span>Consejos</span></a></li>
-                    <li><a href="#bases" class="bases"><span>Bases y condiciones</span></a></li>
-                </ul>
-            </nav>
-            <div class="ahorra"><span>Ahorrá agua</span></div>
-        </div>
-    </header>
     <div class="containerSmall">
         <!-- Form -->
         <form id="registroForm" action="<?php echo PATH_CONTROLLER; ?>controladorAdminModel.php" method="post" class="formRegistro" >
@@ -77,6 +65,7 @@
                     <input class="btnEnviar" type="submit" value="ENVIAR">
                 </div>
                 <a href="#comentarios" class="btnMira"><span>Mirá cómo otros ya se han comprometido</span></a>
+                <p class="observacion2">Todos los campos son obligatorios.</p>
             </div>
             <div class="clear"></div>
         </form>
