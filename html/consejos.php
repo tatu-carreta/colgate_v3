@@ -1,17 +1,19 @@
 <script type="text/javascript">
-    $(document).ready(function() {
-        $(".various").fancybox({
-            maxWidth    : 800,
-            maxHeight   : 600,
-            fitToView   : false,
-            width       : '70%',
-            height      : '70%',
-            autoSize    : false,
-            closeClick  : false,
-            openEffect  : 'none',
-            closeEffect : 'none'
-        });
-    });
+	$(function() {
+		$(".various").fancybox({
+			maxWidth    : 800,
+			maxHeight   : 600,
+			fitToView   : false,
+			width       : '70%',
+			height      : '70%',
+			autoSize    : false,
+			closeClick  : false,
+			openEffect  : 'none',
+			closeEffect : 'none',
+			type: 'html',
+			content: '<video id="video" preload controls><source src="<?php echo PATH_IMAGES; ?>video-colgate.mp4" type="video/mp4"><source src="<?php echo PATH_IMAGES; ?>video-colgate.webm" type="video/webm"><source src="<?php echo PATH_IMAGES; ?>video-colgate.ogv" type="video/ogv"></video>'
+		});
+	});
 </script>
 <!-- Section Consejos -->
 <section id="consejos">
@@ -63,7 +65,7 @@
     <div class="containerBtns">
         <div class="containerSmall">
             <a class="btnMiraConsejos" href="#comentarios"><span>Mirá cómo otros se han comprometido</span></a>
-            <a class="btnMiraVideo various" href="#inline"><span>Video</span></a>
+            <a class="btnMiraVideo various" href="#"><span>Video</span></a><!--  href="#inline" -->
         </div>  
     </div> 
 </section>
