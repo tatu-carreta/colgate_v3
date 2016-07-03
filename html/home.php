@@ -1,7 +1,7 @@
 <section id="inicio">	
 	<div class="mainTxt">
         <div class="container">
-		    <img class="cuidemos" src="<?php echo PATH_IMAGES; ?>cuidemos-el-agua-walmart-colgate.svg" alt="Cuidemos el agua">
+		      <img class="cuidemos" src="<?php echo PATH_IMAGES; ?>cuidemos-el-agua-walmart-colgate.svg" alt="Cuidemos el agua">
         </div>
 	</div>
 	<!-- <div class="mainImg">

@@ -7,7 +7,7 @@ Verde: #b5c84e;
 
 body {font-family: 'Lato', sans-serif; margin: 0}
 body, html {height: 100%}
-.container {max-width: 1200px; margin: 0 auto; position: relative;}
+.container {max-width: 1200px; margin: 0 auto; padding: 20px; position: relative;}
 .containerSmall {max-width: 1000px; margin: 0 auto; position: relative;}
 ul, li {list-style: none; margin: 0; padding: 0}
 a {text-decoration: none;}
@@ -15,9 +15,11 @@ button span {display: none;}
 .clear {clear: both}
 
 header {border-top: 5px solid #b5c84e; margin-top: 1em; position: fixed; top: 0; width: 100%; z-index: 999}
+header .container {padding: 0}
 
 nav {display: inline-block; position: relative; top: -5px}
-nav li {display: inline-block;}
+nav:before { content: "";width: 572px; height: 5px;background: #fffefe; position: absolute; top: 0px;left: -5px; z-index: 500; display: inline-block;}
+nav li {display: inline-block; position: relative; z-index: 1001}
 nav a {display: block; height: 98px; position: relative;}
 nav .participa {background: url(../images/btn-participa.png) no-repeat; width:251px; left:0;}
 nav .participa:hover {background: url(../images/btn-participa-hover.png) no-repeat; width:251px; left:0;}
@@ -37,7 +39,7 @@ h2 span {display: inline-block; vertical-align: middle;}
 /* HOME */
 #inicio {background: url(../images/manos.jpg) no-repeat right top; background-size: auto 90%; display: table; width: 100%; padding: 0}
 .mainTxt {width: 100%; height: 100%; display: table-cell; vertical-align: middle;t}
-.mainTxt img {width: 52%}
+.mainTxt img{width: 50%}
 /*.mainImg {width: 50%; float: right; text-align: right;}
 .mainImg img {width: auto; height: 100%}*/
 .consigna {border-top: 5px solid #b5c84e; background: white; position: absolute; left: 0; bottom: 0; width: 100%;}
@@ -61,7 +63,7 @@ section {height: 100%; position: relative; box-sizing:border-box; padding-top: 1
 .ancho40 {width: 40%; display: inline-block;}
 .ancho20 {width: 18%; display: inline-block;}
 .combo {margin-bottom: 10px;}
-.masEan {background: url(../images/masEan.svg) no-repeat; width: 60px; height: 32px; border: 0; cursor: pointer; position: relative; left: -21px; top: 1px}
+.masEan {background: url(../images/masEan.svg) no-repeat; width: 60px; height: 32px; border: 0; cursor: pointer; position: relative; left: -21px; top: 1px; padding: 1px}
 .ean {margin-bottom: 20px}
 .observacion {font-size: 0.8em;position: relative; top: -12px; left: 5px; display: inherit;}
 .observacion2 {font-size: 0.9em;}
@@ -146,3 +148,11 @@ input[type="submit"] {font-family: 'Lato', sans-serif;}
 #divLoading {display: none; position: fixed; top: 0; left: 0; z-index: 5000; width: 100%; height: 100%; text-align: center; background: rgba(255,255,255,0.7);}
 #divLoading img {position: absolute; top: 50%; left:50%; margin-top: -24px; margin-left: -24px}
 #divLoading p {position: absolute; top:40%; width: 100%; font-size: 1.6em;}
+
+
+/* Media Queries */
+
+@media screen and (max-width:1368px){
+	.mainTxt img {width: 40% !important}
+	section {padding-top: 130px}
+}
