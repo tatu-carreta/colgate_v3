@@ -1,11 +1,11 @@
 <script type="text/javascript">
 	$(function() {
 		$(".various").fancybox({
-			maxWidth    : 800,
-			maxHeight   : 600,
+			maxWidth    : 700,
+			maxHeight   : 700,
 			fitToView   : false,
-			width       : '70%',
-			height      : '70%',
+			width       : '50%',
+			height      : '80%',
 			autoSize    : false,
 			closeClick  : false,
 			openEffect  : 'none',
