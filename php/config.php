@@ -26,10 +26,10 @@ if (!$localhost) {
             break;
     }
 
-    define("DB_USER", "");
-    define("DB_PASS", "");
+    define("DB_USER", "cuidemos_col_use");
+    define("DB_PASS", "Col_pass_16");
     define("DB_HOST", "localhost");
-    define("DB_SELECTED", "");
+    define("DB_SELECTED", "cuidemos_col_wall");
 
 
 } else {

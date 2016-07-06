@@ -23,6 +23,7 @@ if ($infoValidate['estado']) {
     $numTel = sanearDatos($_POST['numTel']);
     $telefono = $codTel . " - " . $numTel;
     $correo = sanearDatos($_POST['correo']);
+	$comentarios = sanearDatos($_POST['comentarios']);
 
     if (isset($_POST['novedades']) && ($_POST['novedades'] == 'T')) {
         $recibir = 'S';
@@ -66,7 +67,8 @@ if ($infoValidate['estado']) {
                 'telefono' => $telefono,
                 'correo' => $correo,
                 'productos' => $productos,
-                'recibir' => $recibir
+                'recibir' => $recibir,
+				'comentarios' => utf8_encode(utf8_decode($comentarios))
             );
 
             $estadoAgregacion = realizarAgregacionRegistro($data_registro);

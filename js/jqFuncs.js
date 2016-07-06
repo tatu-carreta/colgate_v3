@@ -104,6 +104,7 @@ function validarRegistro() {
     var codTel = $("input[name='codTel']");
     var numTel = $("input[name='numTel']");
     var correo = $("input[name='correo']");
+	var comentarios = $("textarea[name='comentarios']");
 
 
     if (nombre.val() == "")
@@ -150,6 +151,11 @@ function validarRegistro() {
     {
         alert("El Correo electrónico está vacío o no tiene un formato válido.");
         correo.focus();
+    }
+	else if ((comentarios.val() == ""))
+    {
+        alert("El Comentario está vacío.");
+        comentarios.focus();
     }
     else
     {

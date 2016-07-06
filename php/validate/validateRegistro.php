@@ -21,6 +21,8 @@ function validarEnviarRegistro() {
         $text = "Problema en el Número del Teléfono.";
     } elseif (!isset($_POST['correo']) || ($_POST['correo'] == "") || (!filter_var($_POST['correo'], FILTER_VALIDATE_EMAIL))) {
         $text = "Problema en el Correo electrónico.";
+    } elseif (!isset($_POST['comentarios']) || (trim($_POST['comentarios']) == "")) {
+        $text = "Problema en el Comentario.";
     } else {
         if (isset($_POST['prods']) && (is_array($_POST['prods']))) {
             $prodOk = true;

@@ -59,7 +59,7 @@
         
             <div class="campoComentarios">
                 <h2>Mi compromiso <br>con el cuidado del agua es...</h2>
-                <textarea name="" class="textAComentario" placeholder="Escribí tu comentario:"></textarea>
+                <textarea required="" name="comentarios" class="textAComentario" placeholder="Escribí tu comentario:"></textarea>
                 <div class="combo envio">
                     <input type="hidden" name="section" value="registro">
                     <input class="btnEnviar" type="submit" value="ENVIAR">

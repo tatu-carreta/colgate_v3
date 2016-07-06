@@ -45,10 +45,10 @@ function realizarAgregacionRegistro($datos) {
         $estadoConsulta = TRUE;
 
         /* Insert registro */
-        $sql4 = "INSERT INTO persona(nomyape, dni, domicilio, codPostal, ciudad, provincia, telefono, email, fecha_ingreso, recibir) 
-                VALUES (?,?,?,?,?,?,?,?,'" . date('Y-m-d H:i:s') . "',?)";
+        $sql4 = "INSERT INTO persona(nomyape, dni, domicilio, codPostal, ciudad, provincia, telefono, email, fecha_ingreso, recibir, comentarios) 
+                VALUES (?,?,?,?,?,?,?,?,'" . date('Y-m-d H:i:s') . "',?,?)";
         $stmt4 = $conect->prepare($sql4);
-        $stmt4->bind_param('sisssssss', $datos['nomyape'], $datos['dni'], $datos['domicilio'], $datos['codPostal'], $datos['ciudad'], $datos['provincia'], $datos['telefono'], $datos['correo'], $datos['recibir']);
+        $stmt4->bind_param('sissssssss', $datos['nomyape'], $datos['dni'], $datos['domicilio'], $datos['codPostal'], $datos['ciudad'], $datos['provincia'], $datos['telefono'], $datos['correo'], $datos['recibir'], $datos['comentarios']);
         if (!$stmt4->execute()) {
             $estadoConsulta = FALSE;
         }
