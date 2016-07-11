@@ -38,8 +38,10 @@ h2 span {display: inline-block; vertical-align: middle;}
 
 /* HOME */
 #inicio {background: url(../images/manos.jpg) no-repeat right top; background-size: auto 90%; display: table; width: 100%; padding: 0}
-.mainTxt {width: 100%; height: 100%; display: table-cell; vertical-align: middle;t}
-.mainTxt img{width: 50%}
+.mainTxt {width: 100%; height: 100%; display: table-cell; vertical-align: middle;}
+.mainTxt .imgCuidemos{width: 50%; text-align: center}
+.mainTxt .imgCuidemos img {width: 100%}
+.mainTxt .imgCuidemos img.walmartchango {width: 65%; margin: 1.5em 0}
 /*.mainImg {width: 50%; float: right; text-align: right;}
 .mainImg img {width: auto; height: 100%}*/
 .consigna {border-top: 5px solid #b5c84e; background: white; position: absolute; left: 0; bottom: 0; width: 100%;}
@@ -155,8 +157,10 @@ input[type="submit"] {font-family: 'Lato', sans-serif;}
 /* Media Queries */
 
 @media screen and (max-width:1368px){
-	.mainTxt img {width: 40% !important}
 	section {padding-top: 130px}
+}
+@media screen and (max-width:1200px){
+    .mainTxt .imgCuidemos{width: 45%;}
 }
 
 @media screen and (max-width:1200px){
