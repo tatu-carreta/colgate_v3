@@ -90,7 +90,7 @@ require_once (__DIR__) . '/../php/config.php';
                     <li><a href="#bases" class="bases"><span>Bases y condiciones</span></a></li>
                 </ul>
             </nav>
-            <div class="ahorra"><span>Ahorrá agua</span></div>
+            <div class="ahorra"><img src="<?php echo PATH_IMAGES; ?>ahorra-agua.png"><span>Ahorrá agua</span></div>
         
             <!-- <nav class="menuResponsive">
                 <ul>

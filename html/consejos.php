@@ -30,34 +30,49 @@
     	<h2>Vos también podés colaborar ahorrando agua:</h2>
     	<ul class="tips">
     		<li>
-    			<img src="<?php echo PATH_IMAGES; ?>consejo-manos.jpg" alt="Al lavarte las manos">
-    			<h3>Al lavarte las manos</h3>
-				<p>Abrí la canilla sólo al enjuagarte.</p>
+    			<div class="contentImg"><img src="<?php echo PATH_IMAGES; ?>consejo-manos.jpg" alt="Al lavarte las manos"></div>
+    			<div class="contentConsejo">
+                    <h3>Al lavarte las manos</h3>
+    				<p>Abrí la canilla sólo al enjuagarte.</p>
+                </div>
 				<p class="litros">1 litro</p>
+                <div class="clear"></div>
     		</li>
     		<li>
-    			<img src="<?php echo PATH_IMAGES; ?>consejo-dientes.jpg" alt="Al lavarte las manos">
-    			<h3>AL LAVARTE LOS DIENTES</h3>
-				<p>Utilizá un vaso para enjuagarte.</p>
+    			<div class="contentImg"><img src="<?php echo PATH_IMAGES; ?>consejo-dientes.jpg" alt="Al lavarte las manos"></div>
+    			<div class="contentConsejo">
+                    <h3>AL LAVARTE LOS DIENTES</h3>
+    				<p>Utilizá un vaso para enjuagarte.</p>
+                </div>
 				<p class="litros">1.5 litros</p>
+                <div class="clear"></div>
     		</li>
     		<li>
-    			<img src="<?php echo PATH_IMAGES; ?>consejo-ducha.jpg" alt="Al lavarte las manos">
-    			<h3>EN LA DUCHA</h3>
-				<p>Cerrá la canilla mientras te enjabonás.</p>
+    			<div class="contentImg"><img src="<?php echo PATH_IMAGES; ?>consejo-ducha.jpg" alt="Al lavarte las manos"></div>
+                <div class="contentConsejo">
+        			<h3>EN LA DUCHA</h3>
+    				<p>Cerrá la canilla mientras te enjabonás.</p>
+                </div>
 				<p class="litros">75 litros</p>
+                <div class="clear"></div>
     		</li>
     		<li>
-    			<img src="<?php echo PATH_IMAGES; ?>consejo-auto.jpg" alt="Al lavarte las manos">
-    			<h3>AL LAVAR EL AUTO</h3>
-				<p>Utilizá balde y esponja.</p>
+    			<div class="contentImg"><img src="<?php echo PATH_IMAGES; ?>consejo-auto.jpg" alt="Al lavarte las manos"></div>
+                <div class="contentConsejo">
+        			<h3>AL LAVAR EL AUTO</h3>
+    				<p>Utilizá balde y esponja.</p>
+                </div>
 				<p class="litros">40 litros</p>
+                <div class="clear"></div>
     		</li>
     		<li>
-    			<img src="<?php echo PATH_IMAGES; ?>consejo-regar.jpg" alt="Al lavarte las manos">
-    			<h3>EN EL JARDÍN</h3>
-				<p>Utilizá el agua necesaria para regar, no la uses para “barrer” hojas o suciedad.</p>
+    			<div class="contentImg"><img src="<?php echo PATH_IMAGES; ?>consejo-regar.jpg" alt="Al lavarte las manos"></div>
+                <div class="contentConsejo">
+        			<h3>EN EL JARDÍN</h3>
+    				<p>Utilizá el agua necesaria para regar, no la uses para “barrer” hojas o suciedad.</p>
+                </div>
 				<p class="litros">70 litros</p>
+                <div class="clear"></div>
     		</li>
     	</ul>
         <div class="clear"></div>
