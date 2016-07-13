@@ -62,15 +62,24 @@ require_once (__DIR__) . '/../php/config.php';
     </head>
     <body>
 		<script>
-		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-		 
-		  ga('create', 'UA-73999373-3', 'auto');
-		  ga('send', 'pageview');
+                    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+                    ga('create', 'UA-73999373-1', 'auto');
+                    ga('send', 'pageview');
 		 
 		</script>
+                <script>
+                    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+                    ga('create', '<?php echo $goo_analy['codigo_area'] ?>', 'auto');
+                    ga('send', 'pageview');
+                </script>
         <header>
         <div class="container">
             <nav>
@@ -122,5 +131,57 @@ require_once (__DIR__) . '/bases.php';
 
         <script src="<?php echo PATH_JS ?>jqFuncs.js"></script>
         <script src="<?php echo PATH_JS ?>jquery.easing.1.3.js"></script>
+        
+        <!-- Dynamic SiteCatalyst code version: H.x. Copyright 1997-2004 Omniture, Inc. More info available at http://www.omniture.com -->
+        <script language="JavaScript" type="text/javascript">
+
+        <!--
+
+        var s_account='<?php echo $omni['codigo_country'] ?>,CPAllPromo';
+
+        -->
+
+        </script>
+
+        <script language='JavaScript' src='https://secure.colgate.com/Colgate/Common/s_code_remote_h.js'></script>
+
+        <script language="JavaScript">
+
+        <!--
+        _omniture.pageName='<?php echo $omni['path_promotion'] ?>';
+        _omniture.server='www.colgate.com';
+        _omniture.channel='main';
+        _omniture.account='<?php echo $omni['codigo_country'] ?>,CPAllPromo';
+        _omniture.prop1='Latin America';
+        _omniture.prop2='<?php echo $omni['country'] ?>';
+        _omniture.prop3='<?php echo $omni['language'] ?>';
+        _omniture.prop4='Promotions';
+        _omniture.prop5='Oral Care Promotion';
+        _omniture.prop6='Toothpaste Promotion';
+        _omniture.prop7='<?php echo $omni['name_promotion'] ?>';
+        _omniture.prop8='<?php echo $omni['name_promotion'] ?>';
+        _omniture.linkInternalFilter='javascript:,/Colgate';
+        _omniture.hier1='Colgate Universal,';
+        -->
+
+        </script>
+
+        <script language='JavaScript' src='https://secure.colgate.com/Colgate/Common/s_code_remote_h_post.js'></script>
+
+        <script language="JavaScript">
+
+        <!--
+
+        var s_code=_omniture.t();
+
+        if(s_code) {
+
+        alert("s_code="+s_code);
+
+        document.write(s_code); } //--></script>
+
+        <!-- End SiteCatalyst code version: H.x. -->
+
+        <noscript><img src="http://CPBRAll.112.2o7.net/b/ss/<?php echo $omni['codigo_country'] ?>,CPAllPromo/1/1/H.7--NS/123456?pageName=<?php echo $omni['path_promotion'] ?>" width="1" height="1" border="0" /></noscript>
     </body>
 </html>

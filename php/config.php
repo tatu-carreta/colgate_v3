@@ -41,6 +41,35 @@ if (!$localhost) {
     define("DB_SELECTED", "colgate_v3");
 }
 
+$geo = false;
+
+if($geo)
+{
+    $goo_analy = array(
+        'codigo_area' => 'UA-61383693-4'
+    );
+    
+    $omni = array(
+        'codigo_country' => 'CPARAll,CPARPromo',
+        'path_promotion' => URL_TOTAL,
+        'country' => 'Argentina',
+        'language' => 'Spanish',
+        'name_promotion' => 'Cuidemos el agua'
+    );
+}else{
+    $goo_analy = array(
+        'codigo_area' => 'UA-61383693-4'
+    );
+    
+    $omni = array(
+        'codigo_country' => 'CPARAll,CPARPromo',
+        'path_promotion' => URL_TOTAL,
+        'country' => 'Argentina',
+        'language' => 'Spanish',
+        'name_promotion' => 'Cuidemos el agua'
+    );
+}
+
 /*
  * paths para utilizar absoluto y permitir
  * url amigable a traves de .htaccess
