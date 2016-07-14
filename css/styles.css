@@ -91,6 +91,7 @@ section {height: 100%; position: relative; box-sizing:border-box; padding-top: 1
 .containerComentarios {max-width: 780px; margin: 0 auto}
 #comentarios h2 {font-weight: 700}
 #comentarios h2 span{position: relative; top:-35px; left: 15px}
+#comentarios h2.sinF {display: none;}
 .opiniones {}
 .opiniones li {background: url(../images/hombrecito.gif) no-repeat left; padding-left:50px; padding-top: 5px; color: #3d77b7; font-size: 20px; margin-bottom: 20px;font-style: italic; }
 .opiniones p {margin: 0}
@@ -318,6 +319,9 @@ input[type="submit"] {font-family: 'Lato', sans-serif;}
     .calafate {height: 100px; width: 39%; background-size: auto; background: url(../images/calafate3.png) no-repeat left center;}
 
     .tips li:before {content: ""; height: 0;}
+
+    #comentarios h2.conF {display: none;}
+    #comentarios h2.sinF {display: block;}
 }
 
 

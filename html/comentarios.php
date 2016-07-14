@@ -1,8 +1,8 @@
 <!-- Section Comentarios -->
 <section id="comentarios">
     <div class="container">
-        <h2><img src="<?php echo PATH_IMAGES; ?>btn-mira.png" alt="Mirá cómo otros ya se han comprometido"><span>Para ahorrar agua...</span></h2>
-    
+        <h2 class="conF"><img src="<?php echo PATH_IMAGES; ?>btn-mira.png" alt="Mirá cómo otros ya se han comprometido"><span>Para ahorrar agua...</span></h2>
+        <h2 class="sinF"><img src="<?php echo PATH_IMAGES; ?>btn-mira-sf.png" alt="Mirá cómo otros ya se han comprometido"><span>Para ahorrar agua...</span></h2>
         <div class="containerComentarios">
         	<ul class="opiniones">
         		<li>
