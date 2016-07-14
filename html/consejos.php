@@ -1,12 +1,12 @@
 <script type="text/javascript">
 	$(function() {
 		$(".various").fancybox({
-			maxWidth    : 700,
-			maxHeight   : 700,
+			//maxWidth    : 600,
+			//maxHeight   : 600,
 			fitToView   : false,
-			width       : '50%',
-			height      : '80%',
-			autoSize    : false,
+			//width       : '400',
+		    //height      : 'auto',
+			autoSize    : true,
 			closeClick  : false,
 			openEffect  : 'none',
 			closeEffect : 'none',
@@ -35,7 +35,7 @@
                     <h3>Al lavarte las manos</h3>
     				<p>Abrí la canilla sólo al enjuagarte.</p>
                 </div>
-				<p class="litros">1 litro</p>
+				<div class="contentLitros"><span class="ahorro">AHORRÁS</span><span class="litros">1 litro</span></div>
                 <div class="clear"></div>
     		</li>
     		<li>
@@ -44,7 +44,7 @@
                     <h3>AL LAVARTE LOS DIENTES</h3>
     				<p>Utilizá un vaso para enjuagarte.</p>
                 </div>
-				<p class="litros">1.5 litros</p>
+                <div class="contentLitros"><span class="ahorro">AHORRÁS</span><span class="litros">1.5 litros</span></div>
                 <div class="clear"></div>
     		</li>
     		<li>
@@ -53,7 +53,7 @@
         			<h3>EN LA DUCHA</h3>
     				<p>Cerrá la canilla mientras te enjabonás.</p>
                 </div>
-				<p class="litros">75 litros</p>
+                <div class="contentLitros"><span class="ahorro">AHORRÁS</span><span class="litros">75 litros</span></div>
                 <div class="clear"></div>
     		</li>
     		<li>
@@ -62,7 +62,7 @@
         			<h3>AL LAVAR EL AUTO</h3>
     				<p>Utilizá balde y esponja.</p>
                 </div>
-				<p class="litros">40 litros</p>
+                <div class="contentLitros"><span class="ahorro">AHORRÁS</span><span class="litros">40 litros</span></div>
                 <div class="clear"></div>
     		</li>
     		<li>
@@ -71,7 +71,7 @@
         			<h3>EN EL JARDÍN</h3>
     				<p>Utilizá el agua necesaria para regar, no la uses para “barrer” hojas o suciedad.</p>
                 </div>
-				<p class="litros">70 litros</p>
+                <div class="contentLitros"><span class="ahorro">AHORRÁS</span><span class="litros">70 litros</span></div>
                 <div class="clear"></div>
     		</li>
     	</ul>
