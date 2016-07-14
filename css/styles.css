@@ -146,7 +146,7 @@ footer {width: 100%; height: 80px; text-align: center; font-size: 14px;}
 .brand a:hover {background: url(../images/cp_hover.png) center center;}
 
 /* Botones */
-.btn {background: #e2002c; border: none; color: #fff; display: inline-block; padding:0 15px; border-radius: 17px; font-weight: 600; font-size: 20px; height: 35px; line-height: 35px; cursor: pointer;}
+.btn {background: #b5c84e; border: none; color: #fff; display: inline-block; padding:0 15px; border-radius: 17px; font-weight: 600; font-size: 20px; height: 35px; line-height: 35px; cursor: pointer;}
 
 
 input[type="text"], input[type="email"] {border:2px solid #b5c84e; display: inline-block; padding:0 15px; font-weight: 600; font-size: 20px; height: 32px; line-height: 32px; width: 100%; box-sizing:border-box; vertical-align: middle;}
