@@ -17,6 +17,10 @@
         			<p>“...Baño a mi perro en un fuentón que lleno una sóla vez de agua, y la uso para mojarlo y enjuagarlo después del shampú ”.</p>
     				<p class="participante">José, Bahía Blanca</p>
         		</li>
+                <li>
+                    <p>...En la ducha diaria, abro la canilla recién cuando estoy debajo del duchador. Además soy consciente en el cuidado del agua no solamente en casa, sino también cuando voy a cualquier lugar.</p>
+                    <p class="participante">Elda, Olivos</p>
+                </li>
         	</ul>
         </div>
     </div>
