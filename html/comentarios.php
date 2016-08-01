@@ -10,11 +10,11 @@
     				<p class="participante">María, Quilmes</p>
         		</li>
         		<li>
-        			<p>“...Utilizo un recipiente con agua caliente y deterjente para lavar los platos, y abro la canilla para enjuagarlos sólamente”.</p>
+        			<p>“...Utilizo un recipiente con agua caliente y detergente para lavar los platos, y abro la canilla para enjuagarlos sólamente”.</p>
     				<p class="participante">Karina, San Isidro</p>
         		</li>
         		<li>
-        			<p>“...Baño a mi perro en un fuentón que lleno una sóla vez de agua, y la uso para mojarlo y enjuagarlo despues del shampú ”.</p>
+        			<p>“...Baño a mi perro en un fuentón que lleno una sóla vez de agua, y la uso para mojarlo y enjuagarlo después del shampú ”.</p>
     				<p class="participante">José, Bahía Blanca</p>
         		</li>
         	</ul>
