@@ -76,6 +76,7 @@ section {height: 100%; position: relative; box-sizing:border-box; padding-top: 1
 .observacion {font-size: 0.8em;position: relative; top: -12px; left: 5px; display: inherit;}
 .observacion2 {font-size: 0.9em;}
 
+#comentarios {height: auto}
 .textAComentario {border:2px solid #b5c84e; width: 230px; height: 220px; color: #3d77b7;font-family: 'Lato', sans-serif; padding: 5px; font-size: 13px }
 .btnMira {background: url(../images/btn-mira.svg) no-repeat; display: inline-block; width:208px; height: 78px; position: absolute; top:150px; left: 270px}
 .btnMira span {display: none;}
